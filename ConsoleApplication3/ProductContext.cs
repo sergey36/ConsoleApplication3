@@ -11,7 +11,7 @@ namespace ConsoleApplication3
     {
 
         public ProductContext()
-            : base("DefaultConnection")
+            : base("DbConnection")
         { }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<Arduino> Arduinos { get; set; }
