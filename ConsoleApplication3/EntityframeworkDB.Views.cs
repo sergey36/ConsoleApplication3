@@ -10,7 +10,7 @@
 using System.Data.Entity.Infrastructure.MappingViews;
 
 [assembly: DbMappingViewCacheTypeAttribute(
-    typeof(ConsoleApplication3.Entities),
+    typeof(ConsoleApplication3.Program),
     typeof(Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets1ec811aca94b2d65914f11b9f5737c30463f2b14c43b46d5ea4cf3f4a4c109de))]
 
 namespace Edm_EntityMappingGeneratedViews
